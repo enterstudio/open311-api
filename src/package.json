@@ -39,7 +39,7 @@
     "guess-content-type": "^0.1.0",
     "i18next": "6.0.3",
     "i18next-express-middleware": "1.0.2",
-    "i18next-node-fs-backend": "0.1.3",
+    "i18next-node-fs-backend": "2.1.3",
     "js2xmlparser": "2.0.2",
     "jsonwebtoken": "7.2.1",
     "moment": "2.17.1",
