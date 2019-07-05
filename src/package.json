@@ -21,7 +21,9 @@
   "private": true,
   "scripts": {
     "start": "node index.js",
-    "test": "NODE_ENV=test mocha test/ --timeout 30000 --reporter spec --bail test/"
+    "test": "NODE_ENV=test mocha test/ --timeout 30000 --reporter spec --bail test/",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -52,7 +54,8 @@
     "path": "0.12.7",
     "request": "2.79.0",
     "sequelize": "3.30.0",
-    "sqlite3": "3.1.8"
+    "sqlite3": "3.1.8",
+    "snyk": "^1.192.3"
   },
   "devDependencies": {
     "expect": "1.20.2",
@@ -60,5 +63,6 @@
     "mocha-junit-reporter": "1.13.0",
     "sequelize-cli": "^2.4.0",
     "supertest": "2.0.1"
-  }
+  },
+  "snyk": true
 }
