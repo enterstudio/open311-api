@@ -51,8 +51,8 @@
     "object-assign": "4.1.1",
     "path": "0.12.7",
     "request": "2.79.0",
-    "sequelize": "3.30.0",
-    "sqlite3": "3.1.8"
+    "sequelize": "6.1.0",
+    "sqlite3": "5.0.3"
   },
   "devDependencies": {
     "expect": "1.20.2",
